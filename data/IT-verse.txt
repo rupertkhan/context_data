@@ -1,0 +1,1217 @@
+﻿Project IT-verse
+Description:The idea with this document is to create an interactive presentation in Prezi (or any other similar software, ideas are more than welcome) with a “Universe” thematic, where the information will be categorized following the classification system: Universe, solar system, planets, moons. Our Universe would be the IT environment, the solar system could be the Cloud environment, Frontend environment, Backend environment, and so on. Finally, the moons would be the tools used for that specific role/tech. Below you will find a sketch of the possible organization in Prezi. Take into account not all concepts have been thought of.
+
+  
+TO DO LIST
+If you’d like to help, please check the To-do list. You can always add whatever you feel/think is pending or necessary to add,search,find or work on.
+
+
+* Confirm which are languages and which are frameworks, platforms or something else in the FE and BE section
+* Check which technologies can be used for both FE and BE, such as Node.
+* Think about some easter eggs (loro and sourcing stuff)
+* Rarity value for roles? Probability of finding profiles with this role and tech
+* Add the techs from the “Periodic Table of DevOps Tools” website
+* Identify and categorize the techs either as language, framework, environment or platform using color codes.
+* Check UML diagrams and its tools
+* Check about procedural,object,function
+* Check a possible dichotomy for categorizing programming languages > here
+* Add the programming languages from this video
+
+Tech tools related languages
+Back End
+
+
+* SQL (does not fit into the categories, it’s a declarative language)
+* Prolog > logic programming language associated with artificial intelligence and computational linguistics (declarative language)
+* C> imperative language
+* COBOL> Common Business Oriented Language. It is imperative, procedural, and object-oriented. Used in the financial industry. 
+* Lua>supports procedural programming, object-oriented programming, functional programming, data-driven programming, and data description
+
+Procedural oriented
+
+   * Fortran
+   * Pascal
+   * Rexx (Restructured Extended Executor) 
+   * Visual Basic
+   * ADA
+Object oriented
+   * Forth? Not sure Forth has a niche in astronomical and space applications[5] as well as a history in embedded systems
+   * Turing
+   * Java
+   * ActionScript
+   * Delphi
+   * Perl> tricky. 
+   * C#
+   * Clarion
+   * Eiffel
+   * MATLAB*
+   * Visual Basic*
+   * S-language > statistical programming language
+   * D (dlang)
+   * Smalltalk
+   * LISP
+   * Groovy
+   * PHP
+   * C++
+   * ADA
+   * Dylan
+Function oriented
+
+
+   * Wolfram (Mathematica)
+   * Julia
+   * Python
+   * R
+   * Ruby
+   * Swift
+   * PHP
+   * Java
+   * Lua
+   * Rust
+   * NodeJS*
+   * Nim
+   * C++
+   * Crystal
+   * C
+   * Go
+   * Salesforce
+   * Jython (Java+Python)
+   * MATLAB*
+   * Haskell
+   * Scheme 
+   * R> for statistical computing and graphics,used to clean, analyze, and graph your data
+   * C++
+   * Dylan
+
+
+Blender/Unreal/Nvidia?
+
+
+Blockchain
+
+   * Encrypted digital signature
+   * DApps (Decentralized applications)
+   * Avalanche
+   * Solidity (ETH) or SOLC. Syntax similar to Javascript,especially Nodejs
+   * GHOST protocol (ETH)
+   * EBaaS (Ethereum Blockchain as a Service)
+   * Ethereum Virtual Machine (EVM). 
+   * Truffle. Environment for developing, testing, and deploying ETH DApps and smart contracts.
+   * Ganache. Virtual blockchain environment to test DApps
+   * Drizzle. FE dev tool to create GUI (graphical user interface) for DApps. Uses templates
+   * Mist. Browser to check for DApps
+   * Hyperledger
+   * Sawtooth
+   * Iroha
+   * Fabric. Creation of private blockchain environments. B2B transactions and applications.Techs used: Go and Chaincode
+   * Types of Blockchain devs
+   * Core Blockchain or Architectural blockchain devs. High level role, similar to architect. Create the platform under which DApps will work
+   * Keywords: Public blockchain, private blockchain, consortium blockchain.
+   * Work with B2B. Hyperledger
+   * Decide consensus protocol. Examples: Proof of Work (PoW), Practical Byzantine Fault Tolerance (PBFT), Proof of Stake, Proof of Elapsed time. 
+   * Cryptography. SHA-256 hash
+   * Merkel tree, Radix tree, Binary tree.
+   * Blockchain application devs or DApps devs
+   * Develop DApps using Solidity and Viper when expert. Rookies should be proficient in C++,Java,Javascript,NodeJS and Python
+   * DApp GUI : Truffle, Ganache, Drizzle
+   * Deploy and maintain DApps
+   * Geth. It is an Ethereum node implementation based on the Go programming language.
+   * Remix IDE. is based on JavaScript. Remix can also help in addressing the functions of writing smart contracts in Solidity and testing, debugging, and deploying them.
+   * Mist. Before using Mist, users should have a designated place for storage of Ether tokens and execution of smart contracts. The striking factor about Mist that brings it among the best blockchain tools is the tag of Ethereum with it.
+   * Metamask. It helps you interact with Ethereum decentralized apps
+   * Parity. is actually a client for Ethereum. It uses Rust programming language.
+   * Blockchain Testnet. is helpful for testing dapps 
+   * Embark. framework for Ethereum dapps 
+
+R3 Corda
+Nginx
+Graphene
+Geth
+Grafana
+Solana
+Arduino
+Hyperledger Indy
+Openzeppelin
+Truffle
+CMR (SAP, Wordpress, Joomla, Salesforce, Drupal)
+DATA
+Databricks:
+
+
+      * Google BigQuery.
+      * Qubole.
+      * Snowflake.
+      * Dremio.
+      * Cloudera.
+      * Azure Synapse Analytics.
+      * Amazon Redshift.
+      * RStudio.  
+
+
+
+
+DevOps 
+Not a role per se, but a series of cultural practices, although there are some “DevOps” roles.
+
+
+      * Possible roles: Site reliability engineer (SRE), Cloud Engineer, Cloud infrastructure, Cloud administrator, DevOps Engineer
+      * OpenStack (Redhat): to implement IaaS, Google Compute Engine,
+      * Automation/Infrastructure: Jenkins, Ansible, Terraform, CloudFormation
+      * Containerization/CaaS: Docker, Kubernetes (EKS, Vanilla, GKE, Rancher), Serverless
+      * Monitoring: AWS Cloudwatch, Grafana, Prometheus
+      * CI/CD: (Jenkins, Integrity, CircleCI)
+      * Virtualization:  XenServer, VMware
+
+
+Here are some tools used in DevOps culture for specific purposes:
+
+
+IT operations analytics (AiOps/Analytics)/APM (application performance management)
+
+
+
+Instana:automated APM solution for cloud-native, multi-cloud and hybrid cloud applications
+Datadog:performance metrics,event monitoring for infrastructure and cloud services
+AppDynamics: Manage key business metrics
+Splunk:monitoring and searching through big data
+Dynatrace: monitoring of the entire infrastructure including your hosts, processes, and network
+New relic: SaaS that focuses on performance and availability monitoring
+Grafana:to query, visualize, alert on, and understand metrics no matter where they are stored.
+Elastic ELK Stack: helps users take data from any type of source and in any format, and search, analyze and visualize that data in real time.
+
+
+Artifact/Package Management
+
+      * Jfrog Artifactory: automation and management of binaries and artifacts through the application delivery process that improves productivity across your development ecosystem
+      * Nexus (Sonatype):repository manager that organizes, stores and distributes artifacts needed for development
+      * Docker Hub:hosted repository service provided by Docker for finding and sharing container images with your team
+      * Yarn: package manager for your code
+      * NuGet:provides the tools developers need for creating, publishing, and consuming packages
+      * Npm: default package manager for the JavaScript runtime environment Node.
+
+
+Cloud
+
+
+      * AWS
+      * Azure
+      * Google Cloud
+      * IBM Cloud
+      * OpenStack
+
+
+AWS cloud-based tools for DevOpS:
+
+
+      * AWS Lambda:serverless architecture,microservices,IaaC
+      * AWS Cloudwatch: to monitor microservices
+      * AWS X-ray: analyze and debug distributed applications
+      * AWS Elastic Container Service for K8S: allows you to run K8S in AWS cloud environment
+      * AWS CodePipeline:automate pipelines
+      * AWS CodeBuild:compiles source code, runs tests, and produces software packages
+      * AWS CodeDeploy:automates software deployments
+      * AWS CodeStar:develop, build, and deploy applications on AWS
+      * AWS App Mesh: for services to communicate with each other across multiple types of compute infrastructure
+
+
+AWS mobile app development tools:
+
+
+      * Amazon Chime: Android/iOS
+      * AWS Amplify
+      * AWS AppSync
+      * AWS Device Farm
+
+
+AWS services:
+      * Amazon Elastic Block Storage (EBS): providing block storage devices
+      * Amazon Relational Data Service (RDS): providing MySQL and Oracle databases
+      * Amazon Simple Email Service (SES):providing bulk email sending facilities
+      * Amazon Route 53: providing a scalable domain system
+      * Amazon Elastic Compute Cloud (EC2): to create applications to run on AWS platforms, used by devs
+      * Amazon Elastic Container service (ECS)
+      * Amazon Elastic Container Registry (ECR)
+      * Amazon Elastic Kubernetes Service (Amazon EKS)
+      * Amazon CloudWatch: monitoring infrastructure
+      * AWS CodeCommit.
+      * AWS CodeBuild.
+      * AWS CodePipeline.
+      * AWS CodeDeploy.
+      * Amazon Elastic Container Registry.
+      * AWS CodeStar.
+
+
+
+
+
+
+
+
+Azure Cloud tools
+
+
+      * Azure Service Fabric: creation of microservices and manage IaaC
+      * Visual Studio/Azure App Service: to build cloud native applications in Azure
+      * Azure Policy: to apply and monitor infrastructure standards
+      * Azure Security Services
+      * Azure PaaS
+      * MS SQL Server
+
+
+Cloud Security Engineer:
+
+
+      * Metasploit framework (vulnerability scanner)
+      * Cuckoo Sandbox (Malware tool)
+      * Nagios (network monitoring tool)
+
+
+
+
+Cloud Administrator:
+
+
+      * Know about PaaS,IaaS,SaaS, virtualization, private, public, hybrid and multi-cloud environments
+      * Network automation through microservices
+      * Configuration management tools: Puppet, Chef, Ansible, Fabric
+      * Automation tools:Azure,AWS
+      * In charge of load balancing multi-server environments
+      * Capacity planning
+      * May come from a Windows or Unix based environment
+      * IaaS
+
+
+Cloud Architect/Engineer:
+
+
+      * Designing and deploying cloud environments 
+      * Deciding whether to use private,public,hybrid or multi-cloud services
+      * Vendor and consultant experience is valuable
+
+
+Languages that can be used within AWS SDK:
+
+
+      * C++
+      * Go.
+      * Java.
+      * JavaScript.
+      * Kotlin.
+      * .NET.
+      * Node.js.
+      * PHP
+      * Ruby
+
+
+Collaboration
+
+
+      * Slack
+Microsoft Teams
+      * Atlassian Confluence
+      * Stack Overflow
+      * Mattermost
+
+Configuration Automation
+
+
+         * Red Hat Ansible: allows users to centralize and control their IT infrastructure with a visual dashboard, role-based access control, and more to reduce operational complexity.
+         * Chef:  to deploy and manage servers and applications in-house and on the cloud.
+         * Puppet: system management tool that helps in automating and centralizing the configuration management process. It is also used for software deployment.
+         * Salt : pulls developer code and configuration information from a central code repository, such as GitHub or Subversion, and pushes that content remotely out to servers
+         * Terraform (Hashicorp): open source infrastructure as code (IaC) software tool that allows DevOps engineers to programmatically provision the physical resources an application requires to run
+         * Consul (Hashicorp): provides service discovery, health checks, load balancing, and key/value storage
+         * Vagrant (Hashicorp) : enhances day-to-day development by allowing you to easily test out DevOps workflow ideas. It allows you to separate your software code and infrastructure without having to know much about DevOps, infrastructure, servers, and configuration-management tools
+         * Packer (Hashicorp): is an open-source DevOps tool made by Hashicorp to create identical machine images for multiple platforms from a single JSON config file
+         * AWS Cloud Formation
+
+
+Containers
+
+
+         * Docker: simplifies the process of creating application topology embodying various interconnected components
+         * Openshift (RedHat): is a cloud-based Kubernetes platform that helps developers build applications
+         * Kubernetes: useful for building, deploying, and scaling enterprise-grade DevOps pipelines
+         * Azure AKS: simplifies deploying a managed Kubernetes cluster in Azure by offloading the operational overhead to Azure
+         * Amazon EKS: Actively monitors the load on control plane instances and automatically scales them to ensure high performance. Automatically detects and replaces unhealthy control plane instances, restarting them across the Availability Zones within the AWS Region as needed
+         * Docker Enterprise: While both editions offer the same core features, Docker Enterprise Edition comes with additional features that can help enterprises launch, manage, and secure their containers more efficiently
+         * Amazon ECS: uses Docker images in task definitions to launch containers
+         * Azure AKS: is a managed Kubernetes service with hardened security and fast delivery. Deploy and manage containerized applications with AKS
+         * Rancher: a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads
+         * Google GKE: provides a managed environment for deploying, managing, and scaling your containerized applications using Google infrastructure
+         * Helm: allows software developers to deploy and test an environment in the simplest possible way
+
+
+Continuous integration
+
+
+         * Jenkins: source continuous integration/continuous delivery and deployment (CI/CD) automation software DevOps tool written in the Java programming language. It is used to implement CI/CD workflows, called pipelines
+         * Azure DevOps code : provides developer services for allowing teams to plan work, collaborate on code development, and build and deploy applications
+         * GitLab CI/CD: can automatically build, test, deploy, and monitor your applications by using Auto DevOps
+         * Travis CI: is a hosted continuous integration service used to build and test software projects hosted on GitHub and Bitbucket
+         * CircleCI: runs the build processes on the code and then runs the automated test scripts
+         * Maven:  is a build automation tool and it helps DevOps in providing automation around the Build phase of the DevOps Life Cycle Management
+         * Bamboo (Atlassian):  is a continuous integration (CI) server that can be used to automate the release management for a software application, creating a continuous delivery pipeline
+         * Gradle:  is a build automation tool known for its flexibility to build software. A build automation tool is used to automate the creation of applications
+         * AWS CodeBuild:  fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy, on a dynamically created build server
+
+
+Database Management
+
+
+         * Liquibase: collects detailed information about every database deployment it performs and automatically logs it to a centralized database, eliminating the human error inherent in manual entry
+         * Delphix: makes it possible to stand up a complete development environment in minutes, deliver data states that are full and faithful copies of production, and automate testing to achieve CI/CD targets
+         * Idera: DevOps integrates software development and IT operations into a single continuous process that delivers significant benefits to common business goals
+         * Quest Toad: works in conjunction with automation tools (Jenkins, Bamboo, and Team Foundation Server) to include database development and deployment steps as part of your existing CI/CD processes
+         * DBmaestro:  is a self-service tool for DevOps teams to automate, secure, and govern Database CI/CD pipelines
+
+
+Deployment
+
+
+         * Azure DevOps Pipelines: automatically builds and tests code projects to make them available to others
+         * Digital Deploy: is an enterprise automated deployment tool that will secure and standardize complex deployments in the cloud
+         * UrbanCode Deploy: is a tool for automating application deployments through your environments
+         * Harness:  is the industry's first Software Delivery Platform to use AI to simplify your DevOps processes 
+         * Spinnaker: used in production by thousands of organizations around the world to automate their software delivery process, and used by developers, testers, SREs to deploy hundreds of changes a day
+         * Cloudbees CD: is an enterprise-grade DevOps Release Automation platform that simplifies provisioning, build, and release of multi-tiered applications and microservices
+         * Octopus Deploy:  is an enterprise-grade DevOps Release Automation platform that simplifies provisioning, build, and release of multi-tiered applications and microservices.
+         * AWS Codeploy:  is a service that automates code deployments to any instance, including Amazon EC2 instances and instances running on-premises
+
+
+Enterprise Agile Planning
+
+
+         * Jira Align (Atlassian): helps software organizations transform the way they plan, deliver, measure and learn across their development lifecycles
+         * Digital.ai Agility: is an enterprise agile planning solution that enables large organizations to plan, track, and report work across multiple teams, locations, programs, and portfolios
+         * Planview: help organizations navigate strategy to delivery transformation by providing the full spectrum of enterprise Portfolio Management and Work Management solutions
+         * Targetprocess:connecting Targetprocess to Azure DevOps allows you to visualize and manage dependencies, track estimates, and perform lean budgeting and strategic planning in Targetprocess, while managing team-level execution data in Azure DevOps
+
+
+
+
+Issue Tracking / ITSM
+
+         * Jira (Atlassian): to plan and track their work through the stages of the development lifecycle
+         * BMC Helix ITSM: is a cloud-based digital service management solution that combines a service desk manager, a change manager, a service delivery manager and an IT director into one suite
+         * Trello (Atlassian) : is a collaboration tool that organizes your projects into boards
+         * ServiceNow: to provide data insights, accelerate change, and increase visibility in your DevOps environment using a single system
+         * TOPDesk: is a commonly used service desk/helpdesk solution that helps you quickly respond to customers' requests and tackle incoming queries
+         * PagerDuty: keeps you connected to your code in production, leverages machine learning to filter out noise, and pulls you in when you're needed in the moments that matter most
+
+
+Other programming languages
+For these, the categories we commonly use (FE or BE) don’t apply. Keep in mind that programming languages’ taxonomy goes beyond front end or back end.
+
+
+         * Assembly 
+         * Racket
+         * Mlxtran: Probabilistic Programming Language
+
+
+
+
+Release Management
+         * Digital.ai Release:  is a release management tool specifically for CD. It enables teams across an organization to model & monitor releases automate tasks within IT infrastructure and cut release times by analyzing and improving release processes
+         * AWS CodePipeline:  is a release management tool specifically for CD. It enables teams across an organization to model & monitor releases automate tasks within IT infrastructure and cut release times by analyzing and improving release processes
+         * Cloudbees Flow: is an enterprise-grade DevOps Release Automation platform that simplifies provisioning, build, and release of multi-tiered applications and microservices
+         * UrbanCode Release (uRelease): is a collaborative release management tool that helps you handle the growing number and complexity of releases
+         * BMC RLM: helps you manage software release planning, coordination, application packaging, and deployment automation
+
+
+
+
+Security
+
+
+         * OWASP ZAP:  security tool for helping to identify vulnerabilities during the development process from OWASP
+         * Sonatype Nexus IQ: provides a number of tools to improve component usage in your software supply chain, allowing you to automate your processes and achieve accelerated speed to delivery while also increasing product quality
+         * CyberArk Conjur: is a secrets management solution tailored specifically for the evolving infrastructure requirements of native cloud and DevOps environments
+         * Veracode: supports secure DevOps with services that include: Static Analysis Security Testing, with automated tools for testing binaries to find and fix security flaws in software that is written, bought or downloaded. Software Composition Analysis, for identifying vulnerabilities in open source and commercial code
+         * Digital.ai App Protection: allows DevOps teams to rapidly integrate mobile app security into code pipelines – without heavy lifting or ongoing management
+         * Aqua Security: helps enterprises secure their cloud native applications from development to production whether they run using containers serverless or virtual machines
+         * Vault (Hashicorp): designed to help organizations manage access to secrets and transmit them safely within an organization. Secrets are defined as any form of sensitive credentials that need to be tightly controlled and monitored and can be used to unlock sensitive information
+         * SonarQube: open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to: Detect Bugs. Code Smells. Security Vulnerabilities
+         * Synopsys Black Duck: allows automatic identification of open source security vulnerabilities during your application build process. The integration allows you to enforce policies configured in Black Duck to receive alerts and fail builds when policy violations are met
+         * Snort: free and open source network intrusion prevention system (NIPS) and network intrusion detection system (NIDS)
+
+
+
+
+Serverless / PaaS
+
+
+         * AWS Lambda: provides a wide range of possibilities for automating DevOps tasks and processes
+         * Azure Functions:  is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs
+         * Heroku: offers shared app workspaces and centralized tools to manage app development teams, processes, and billing
+         * Google Firebase: offers a DevOps-ready solution for automating a continuous deployment workflow for your static and dynamic content as well as for your microservices
+         * Cloud Foundry: can lighten developer workloads and handle resource management for Linux applications, reducing operations overhead
+
+
+Source Control Management
+
+
+         * GIt:  used for source code management
+         * GitHub:  is a tool that provides developers with ways to plan work, collaborate on code development, and build and deploy applications. It is the largest and most advanced development platform in the world
+         * GitLab SCM (Source Code Management): supports software development teams to collaborate communicate in order to quickly solve problems and deliver new features
+         * Bitbucket (Atlassian): Git repository management solution designed for professional teams. It gives you a central place to manage git repositories, collaborate on your source code and guide you through the development flow
+         * Compuware ISPW: integrates into a cross-platform DevOps toolchain to enable continuous build and deploy while ensuring code quality
+         * Subversion:  is a centralized SCM (Software Configuration Management) implementation. It allows to track changes and concurrent development on the same files. Subversion is centralized version Control system, meaning that it uses central server to store all files and enables team collaboration
+
+
+Testing/Automation
+
+
+         * Tricentis Tosca: optimizes and accelerates end-to-end testing of your entire digital landscape
+         * Neotys NeoLoad: to automate API and application performance testing within continuous integration pipelines
+         * Selenium: used for the purpose of automating the tests carried out on web browsers
+         * JUnit:  used by Java developers to write repeatable cases that increase programming speed and improve the code quality
+         * Sauce Labs:  DevOps test toolchain (DevOTT), that enables software development organizations to deliver high-quality web and mobile applications across every browser, OS, device, and API—at speed
+         * Compuware Topaz:  comprehensive suite of modern mainframe development and testing tools designed for greater developer productivity, no matter how old or complex the program
+         * Appium: open source, cross-platform automation testing tool. It is used for automating test cases for native, hybrid and web applications. The tool has a major focus on both Android and iOS apps and was only restricted to the mobile application testing domain
+         * Squash TM: test repository manager for the open source Squash suite. It manages requirements test scenarios and execution campaigns in a natively multi-project context
+         * Cucumber:  tool based on Behavior Driven Development (BDD) framework which is used to write acceptance tests for web applications. It allows automation of functional validation in easily readable and understandable format (like plain English) to Business Analysts, Developers, Testers, etc
+         * JMeter: highly versatile open-source integration testing tool. It is often used as a load testing tool for web applications, but can also be used for functional testing and for testing other types of services, such as databases
+         * Parasoft: accelerates the DevOps workflow by integrating test automation solutions like static analysis, unit testing, and code coverage right into the CI/CD pipeline
+         * Applescript: designed to allow users of the Apple operating system make work easier, such as automating repetitive operations
+
+
+
+
+Front End
+  
+Languages
+            * TypeScript: TypeScript is a superset of typed JavaScript that can help build and manage large-scale JavaScript projects. It can be considered JavaScript with additional features like strong static typing, compilation, and object-oriented programming.
+            * ES6: JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. 
+            * JavaScript: often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. VanillaJS is a name to refer to using plain JavaScript without any additional libraries like jQuery. 
+            * HTML: HTML is the language for describing the structure of Web pages. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+            * CSS: Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
+            * Dart: Is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications. It is an object-oriented, class-based, garbage-collected language with C-style syntax. It can compile to either native code or JavaScript. 
+            * Delphi*
+
+
+Frontend Libraries
+
+
+            * React (library based on Javascript): React is a free and open-source front-end JavaScript library for building user interfaces based on Web UI components. 
+            * Three.js: Three.js is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL.
+Frontend Frameworks
+
+
+            * Angular (framework): Angular is a front-end, component-based architectural framework used to develop websites.
+            * Angular.js (first version): AngularJS is the first version of the framework used mainly to build single page apps (SPAs).
+            * Angular 2+: Angular version 2 is a newer version of AngularJS, released in 2016. This version of the framework using TypeScript, which is an open-sourced programming language maintained by Microsoft. Angular 2 is more useful for developing mobile applications and includes higher performance speeds than AngularJS. Several newer versions came afterwards with the latest being (as per 2022-06-02) version 14.
+
+
+            * For React
+            * Next.js: Next. js is a minimalistic framework that contains all the necessary features to create an application using React.
+            * Gatsby: Gatsby is an open-source framework that combines functionality from React, GraphQL and Webpack into a single tool for building static websites and apps.
+            * Remix: Full-stack framework built on top of React, can serve as your data fetching library, router, and bundler. 
+            * Vue: Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. 
+            * Ember.js: Ember.js is a productive, battle-tested JavaScript frontend framework for building modern web applications
+            * Svelte: Svelte is a JavaScript framework. In general, it’s a set of components, tools and rules for creating the structure of websites and applications with the use of JavaScript. Svelte, however, has developed its own, original way to let developers build what they need and want. Due to this fresh approach, Svelte is sometimes described as a compiler.
+UI/UX
+            * CSS Frameworks
+            * Tailwind: Tailwind CSS is a low-level framework. Meaning, unlike other CSS frameworks like Bootstrap and Materialize, Tailwind doesn't offer fully styled components like buttons, dropdowns, and navbars. Instead, it offers utility classes so you can create your own reusable components.
+            * Bootstrap: Is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+            * Materialize: Materialize is a modern responsive CSS framework based on Material Design by Google. Material Design is a design language that combines the classic principles of successful design along with innovation and technology. Google's goal is to develop a system of design that allows for a unified user experience across all their products on any platform.
+            * Design Systems:  A design system is a collection of reusable UI components. In it, you can define UI elements such as buttons as well as text elements and other elements that you're sure will be reused throughout the design file. This makes the design workflow very easy. Some tools that are used to build design systems are: 
+            * Invision DSM
+            * Adobe XD
+            * Zeplin
+            * Sketch
+            * FramerX and BuilderX for component design
+            * Storybook and Styleguidist for component documentation
+Mobile Development
+            * Hybrid/Cross Platform
+            * React Native: React Native is a framework based on React JS, intended for direct use developing mobile applications with all the benefits of the latter. It is used to develop applications for Android, Android TV, iOS, macOS, tvOS, Web, Windows and UWP by enabling developers to use the React framework along with native platform capabilities.
+            * Ionic: Ionic is a complete open-source SDK for hybrid mobile app development. The original version was released in 2013 and built on top of AngularJS and Apache Cordova. However, the latest release was re-built as a set of Web Components, allowing the user to choose any user interface framework, such as Angular, React or Vue.js. It also allows the use of Ionic components with no user interface framework at all using vanilla JavaScript. Ionic provides tools and services for developing hybrid mobile, desktop, and progressive web apps based on modern web development technologies and practices, using Web technologies like CSS, HTML5, and Sass. 
+            * Flutter: Is an open-source UI software development kit (SDK) created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase. Flutter apps are written in the Dart language and make use of many of the language's more advanced features.
+            * Native Development
+            * Android
+            * Java: 
+            * Kotlin: 
+            * Android Jetpack: is a suite of libraries to help with app development and reduce boilerplate code. Using modern design practices, Jetpack libraries enable fewer crashes and memory leaks
+            * iOS
+            * ObjectiveC: 
+            * Swift: 
+Architecture
+            * Micro Frontends: Micro frontends are a new pattern where web application UIs (front ends) are composed from semi-independent fragments that can be built by different teams using different technologies. Micro-frontend architectures resemble back-end architectures where back ends are composed from semi-independent microservices.
+Concepts
+            * PWA: A progressive web app (PWA) is a website that looks and behaves as if it is a mobile app. PWAs are built to take advantage of native mobile device features, without requiring the end user to visit an app store, make a purchase and download software locally.
+            * Headless CMS: A headless CMS, also known as headless software or headless system, is any type of back-end content management system where the content repository, the “body,” is separated or decoupled from the presentation layer, the “head.” What this really means is that a headless CMS allows you to manage content in one place and still be able to deploy that content across any frontend you choose. This is key to omnichannel strategies because it lets you integrate content into any system, software, or website just by calling the APIs the headless CMS exposes.
+Application Programming Interface (API)
+An API is a set of definitions and protocols for building and integrating application software. It’s sometimes referred to as a contract between an information provider and an information user. You can think of an API as a mediator between the users or clients and the resources or web services they want to get. It’s also a way for an organization to share resources and information while maintaining security, control, and authentication determining who gets access to what. Developers expose or create APIs so that other applications can communicate with their applications programmatically.
+
+
+            * GraphQL: GraphQL is neither the frontend or backend but rather the language spoken between the two to exchange information. GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+            * Rest: A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style. For this reason, REST APIs are sometimes referred to RESTful APIs. REST APIs communicate via HTTP requests to perform standard database functions like creating, reading, updating, and deleting records (also known as CRUD) within a resource. 
+            * Soap: SOAP (Simple Object Access Protocol) is its own protocol and is a bit more complex by defining more standards than REST—things like security and how messages are sent. These built-in standards do carry a bit more overhead. Still, they can be a deciding factor for organizations that require more comprehensive features in the way of security, transactions, and ACID (Atomicity, Consistency, Isolation, Durability) compliance.
+            * gRPC: There are two primary models for API design: RPC and REST. RPC-based APIs are great for actions (that is, procedures or commands). REST-based APIs are great for modeling your domain (that is, resources or entities), making CRUD (create, read, update, delete) available for all of your data. gRPC is a technology for implementing RPC APIs that uses HTTP 2.0 as its underlying transport protocol. It is a modern open source high performance Remote Procedure Call (RPC) framework that can run in any environment. 
+API Tools
+The OpenAPI Specification (OAS) defines a standard, language-agnostic interface to RESTful APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
+            * API design
+            * Swagger is the name associated with some of the most well-known, and widely used tools for implementing the OpenAPI specification. The Swagger toolset includes a mix of open source, free, and commercial tools, which can be used at different stages of the API lifecycle.These tools include:
+            * Swagger Editor: Swagger Editor lets you edit OpenAPI specifications in YAML inside your browser and to preview documentations in real time.
+            * Swagger UI: Swagger UI is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from an OAS-compliant API.
+            * Swagger Codegen: Allows generation of API client libraries (SDK generation), server stubs and documentation automatically given an OpenAPI Spec.
+            * Swagger Parser: Standalone library for parsing OpenAPI definitions from Java
+            * Swagger Core: Java-related libraries for creating, consuming, and working with OpenAPI definitions
+            * Swagger Inspector (free): API testing tool that lets you validate your APIs & generate OpenAPI definitions from an existing API
+            * SwaggerHub (free and commercial): API design and documentation, built for teams working with OpenAPI.
+            * Testing Tools
+            * ReadyAPI: It is the platform for the functional, security, and load testing of RESTful, SOAP, GraphQL, and other web services.
+            * Katalon Studio: Is a robust and comprehensive automation tool for API, Web, Desktop testing and Mobile testing. Katalon Studio provides easy deployment by including all frameworks, ALM integrations, and plugins in one package. The capability of combining UI and API/Web services for multiple environments (Windows, Mac OS, and Linux) is also a unique advantage of Katalon Studio among the top API tools.
+            * Postman: Is an API development environment. Postman API Development Environment is divided into three parts, Collections, Workspaces, and Built-in Tools. 
+            * Postman collections will allow you to run requests, test and debug, create automated tests and mock, document, and monitor API. 
+            * Postman workspace will provide you the collaboration features. It will allow you to share the collections, set permissions, and manage participation in multiple workspaces for any team size. 
+            * Built-in tools will provide the features which will be required by the developers to work with an API.
+            * REST-Assured: REST-Assured makes testing of REST services in the Java domain easy. It is an open-source tool. XML and JSON Requests/Responses are supported by REST-Assured.
+            * ACCELQ: Cloud-based continuous testing platform that seamlessly automates API and web testing without writing a single line of code. 
+
+
+
+
+            * Moncrespo[a][b]
+Java:
+
+
+            * Scala:
+            * Kotlin:
+            * Groovy:
+            * Clojure:
+            * Apex **used for Salesforce:
+            * ColdFusion:
+.Net Programming Languages
+
+
+            * C#
+            * F#
+            * Visual Basic 
+            * C++/CLI
+            * J+
+            * Windows PowerShell
+            * IronPython
+            * IronRuby
+Video Game development:
+
+
+Known as the art of video game creation. Since its humble beginnings in the 1970s the video game industry has quickly become one of the biggest media producers in the entertainment world.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Video Game Development Cycle: 
+
+
+
+
+            1. Idea:Like with most projects it starts with an essential idea. Once an idea is created and pitch must be presented to the game studio’s partners so the project can be funded.
+            2. Planning:  
+After the initial idea has been finaliza the bones or basic structure of the project must be discussed. Which includes Budget Meetings, target demographic, story meetings and world building. During this stage an initial idea of the division of workflow is divided. In other terms, a team is gathered. 
+            3. Pre Development:
+This stage is basically the collaboration stage which means that different teams in the studio come together to determine the scope of the game. Within this teams it includes:
+            * Writers
+            * Artists 
+            * Developers
+        In this stage when everything that will be in the game must be determined. Basically this
+        The bones of the ideas of the game come alive on paper. Just like the concept art and 
+        Other types of designs. This is to give developers an idea of what they are crafting.    
+            4. Development: Once the design and scale of the game are finalized the game will start becoming alive. Development could last up to years where most of the work will take place. 
+            5. Testing: This stage is mainly to test initial systems, Artificial intelligence, Player interaction as well basic gameplay as well as debugging. Mostly done by Quality assurance testers however it’s up to the producers if any errores is fixed.
+            6. Pre Launch: This Stage is when the final details occur like bug fixes, improved renders, Frame Rate adjustments as well as other final polish details. However the main focus of this marketing. Typically this is when the marketing department goes into overdrive. When a game has finished development the industry calls it “going gold”.
+            7. Post Development: Bug Fixes, patches or downloadable content are developed for a game project however this is not always intended.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mobile Development Vs. Console Development
+
+
+
+
+Mobile
+	Console
+	
+
+Pros:
+            * Easy to develop
+            * Easy to publish
+            * Easy to advertise
+            * Easy to access
+	Cons: 
+            * Saturated market
+            * Lack of quality
+            * High Battery Drainage
+            * Lack of story driven content
+	
+
+	
+
+Pros:
+            * High quality graphics
+            * High Frame rates
+            * Less microtransaction based games 
+	Cons:
+            * Constant Hard rare updates
+            * Forced Upgrades
+            * Unfinished and unpolished products
+	
+
+	
+
+
+
+
+
+C++ Programming Language: 
+
+
+Developed as an extension of the C language it is now used to develop operating systems, browsers and games. Supports procedural, object oriented, functional, etc. This language is a cross platform that is used to create high-performance applications. It allows its users to program a high level of control over system resources and memory. C++ was developed as an extension of C, and both languages have almost the same syntax. Although C++ was originally a mere extension of the C language, the main difference between C and C++ is that C++ supports classes and objects, while C does not.
+
+
+Other Languages used for Game Development: 
+
+
+            * Javascript
+            * Java
+            * Typescript
+            * Golang
+            * Dart
+            * Ruby
+            * PHP
+            * C#
+
+
+
+
+
+
+
+
+Console Game development: 
+
+
+Shaders: 
+
+
+Shaders are often considered one the most important details for game development. For some it might be minor however shaders are used to render pixels, apply details such as gradients, lighting and shadows.Shaders basically give a certain amount of realism to game projects. 
+
+
+Types of shaders: 
+            * Vertex Shaders: Special Effects in objects with 3D environment. 
+            * Fragment/Pixel Shader: Applies lighting calculations, effects related to colors. 
+            * Geometry Shader:
+            * Tessellation Shader
+            * Compute Shader: Graphic 
+
+
+Shaders are often written in a special shading language but can be written in C like languages like C# or C++ . GLSL is one of  the most common code languages to use these tools. There are also certain graphic cards used to process and render pixels.
+
+
+Graphics Card:
+            * Geforce
+            * Radeon
+            * Nvidia
+
+
+
+
+Game Engines
+
+
+            * Unreal Engine: Launched back in 1998, it is still used to this day as one of the most popular game engines of all times. In the year 2022 was the official release of Unreal Engine 5, which has been already used to develop games on the Playstation 5 and Xbox Series X. Unreal Engine is well known for its capacities for Scalability, wide range of features, deep customization and development for 2D & 3D experiences.
+
+
+        Unreal Engine Versions:
+            * Unreal 3: Was developed purposely for DirectX 9/10 on PC as well as Playstation 3 and Xbox 360. Support for this Version has been discontinued by Epic Games. 
+
+
+Popular Games developed in Unreal 3: 
+            * Gears Of War (2006) By Epic Games On Windows and Xbox 360
+            * Mass Effect (2007) By BioWare On Windows, PS3 and Xbox 360
+            * Tom Clancy’s Rainbow Six: Vegas 2 (2008) By Ubisoft Montreal On Windows, PS3 and Xbox 360
+            * Batman Arkham Asylum (2009) By Rocksteady Studios On Windows, Mac, PS3 and Xbox 360
+            * Borderlands 2 (2012) By GearBox Studios  On Windows, Mac, Linux, PS3, PS4(Port),PSVita, Xbox 360 and Xbox One (Port).
+            * Mortal Kombat 11 (2019) By Netherrealm Studios (Running on a heavily modded Version of Unreal 3) On Windows, Nintendo Switch, PS4 and Xbox One. 
+
+
+            * Unreal 4: Released in 2015 for public usage, the 4th generation of Unreal was leaps and bounds of its older brother. In addition, to its improvement of lighting and rendering. This engine allowed developers to openly update the C++ code while the engine was still running. As of September 2022, this iteration of Unreal is still available for public download. 
+        
+Popular Games developed in Unreal 4: 
+            * Dead By Daylight (2016) By Behavior Interactive On Windows
+            * Ark: Survival Evolved (2017) By Studio Wildcard On Windows, Mac, Linux, PS4 and Xbox One
+            * Kingdom Hearts III (2020) By Square Enix On PS4 and Xbox One 
+
+
+            * Unreal 5: Announced back in 2020, the fifth iteration of the Unreal engine is yet another improvement in Epic’s lineage of game engines. Dozens of video game projects are being developed using unreal 5 right now. 
+
+
+            * Frostbite: Originally developed by Electronic Arts, for the purpose of developmenting first person shooters. It has since migrated to develop a wide range of titles in the popular sports game franchise. This engine has become well known for its high capacity of rendering and lighting highly photo realistic graphics. People who have experience in this engine have praised it for its destructive environments with great details. This can be seen in the Battlefield series. However, critics have pointed out the poor optimizations in games outside the FPS genre. As of September 2022, Frostbite is exclusive within the EA family. 
+
+
+Popular Games developed in Frostbite: 
+            * The Fifa Series
+            * The Madden Series 
+            * The Battlefield Series
+            * Star Wars Battlefront (2015)
+
+
+
+
+            * Amazon Lumberyard: AAA game engine that allows for AWS cloud integration. Mainly uses C++. Also uses the following services: 
+            * Amazon S3
+            * Amazon EC2
+            * DynamoDB
+
+
+            * CryENGINE: Developed by Crytek first released in 2002 is now at version 5.7.1 as of May 2022. It serves as a 3D game engine solution mainly created for sandbox games like Far Cry 3; it is now available for public consumption. Basic character creation is done in the C++ programming language. 
+
+
+            * Unity: First started as a Mac OS x game engine that has become a fully cross platform game developmenting tool. Unity uses the object-oriented scripting language, C#. 
+Unity Versions:
+            * Unity 2.0 (2007)
+            * Unity 3.0 (2010)
+            * Unity 4.0 (2012)
+            * Unity 5 (2015)
+            * Unity (2017) *Current Version
+        The unity engine has also been used to produce several movies such The 2019 “Live
+        Action” Lion King.
+Platforms that use unity: 
+            * IOS
+            * Android 
+            * Windows
+            * MAC
+            * Linux
+            * Playstation
+            * Xbox
+            * Nintendo Switch
+            * Oculus 
+            * HoloLens 
+
+
+            * Rockstar Advanced Game Engine: Also known as RAGE an exclusive engine developed for high resolution open world sandbox video games. Has been used for cross platform projects like the Grand Theft Auto and Red Dead Redemption series since 2006. It is not publicly known which programming languages it uses but fans speculate that it uses C++ like most game engines.
+
+
+Other Game engines:
+            * Gamemaker Studio
+            * Godot
+            * Cocos 2d
+            * Gdevelop
+            * Solar2d 
+            * jMonkeyEngine
+            * Panda3D 
+            * Torque
+            * Leadwerks
+            * Id Tech 4
+            * Pygame 
+            * Irricht Engine 
+            * C4 Engine
+            * 3D gameStudio
+            * Source 2
+            * Stratagus
+            * HeroEngine
+            * Pico-8
+            * Crystal Space
+            * Blender Game Engine
+            * LithTech 
+            * Coppercube
+            * OpenMW
+            * Babylo.js
+            * Brender
+            * Felgo 
+            * Ubiart 
+
+
+Video Game QA Testing:
+
+
+A video game quality assurance (QA) tester is an essential part of the game development process, with a focus on finding bugs and errors in code. They safeguard the end product against anything that could negatively affect a player’s experience of the game. But a game tester doesn’t just play the game and call it a day — they rigorously test each element of a mission, level, or encounter until every possible scenario has been covered.
+
+
+Other tasks a QA tester may find themselves doing are creating test strategies and, in localization QA where the focus is on translating a game so that it can be enjoyed by another market and language, that linguistic and grammatical errors are spotted and resolved.
+
+
+Tools:
+            * Unity Automated Testing
+            * Unreal Engine Automation System
+            * Appium
+            * Selenium
+            * LumberYard and LY Test Tools
+
+
+  
+
+
+
+
+
+
+
+Jobs Within the video game industry: 
+
+
+            * Game Designer
+            * Software Developer
+            * Game Programmer
+            * Audio Engineer
+            * Game Animator
+            * Game Artist 
+            * World Artist
+            * Character Or Creature Artist
+            * Visual Effects Artist
+            * UI Designer  
+            * Game Localization / Translation
+            * Gameplay tester
+            * Quality Assurance Tester
+            * Quality Assurance Analyst
+            * Mobile Build Engineer
+            * Professional Gamer
+            * Game Streamer
+            * Community Manager 
+            * Security Engineer 
+            * Associate Animator 
+            * AI Programmer
+            * Cinematics Animator 
+            * Sound Designer
+            * Sound Effects Mixer
+            * Quality Verification Tester
+            * Quality Designer 
+            * C++ engineer
+            * Gameplay Services 
+
+
+
+
+Salesforce
+Salesforce is a cloud-based software company that provides businesses with tools that help them find more prospects, close more deals, and provide a higher level of service to their customers.
+Salesforce, Inc. is a famous American cloud-based software company that provides CRM services. Salesforce is a popular CRM tool for support, sales, and marketing teams worldwide. 
+Salesforce services allow businesses to use cloud technology to better connect with partners, customers, and potential customers. Using the Salesforce CRM, companies can track customer activity, market to customers, and many more services. 
+A CRM platform helps you go deeper with all your metrics and data; you could also set up a dashboard that showcases your data visually. In addition to this, you can also have personalized outreach with automation. Another significant benefit is that a CRM platform can also improve customer service's ability to help customers or a sales team's outreach efforts.
+
+
+            1. Multi-tenant: Salesforce stores data in a single database schema. There can be a single instance of a software server with multiple tenants. Speaking about a multi-tenant architecture, there is a single shared application service to several clients. 
+            2. Metadata: Salesforce uses a metadata-driven development model. This allows developers to only focus on building the application. This metadata-driven platform makes customization and scaling up easy.
+            3. API: Salesforce provides a powerful source of APIs. This helps in developing and customizing the Salesforce1 Mobile App. Every feature of the Salesforce design has been planned and implemented precisely. 
+Services:
+            4. SAAS (Software As A Service): Here, you can directly obtain the built-in software and make use of it. 
+            5. PAAS (Platform As A Service): PAAS offers you the framework and platform to build your websites and apps.
+            6. IAAS (Infrastructure As A Service): IAAS plays a vital role in Salesforce development, although not very widely used. 
+Cloud services:
+            1. Sales Cloud: It is one of the most essential and popular products of Salesforce. It is a CRM platform that allows you to manage your company's sales, marketing, and customer support aspects. Sales Cloud gives you the status of the lead that will be helpful for sales executives. 
+            2. Marketing Cloud: Marketing is crucial when it comes to running a business. Marketing cloud lets you run campaigns, manage emails, messages, social media, content management, data analytics, etc., with the help of a tracking system. 
+            3. Analytics Cloud: This enables users to create a highly visually appealing dashboard of the available data. By doing so, you can get an in-depth understanding and analyze the trends, business, and more. 
+            4. IoT Cloud: Salesforce IoT cloud is used when your company needs to handle the Internet of Things (IoT) data. This platform can take vast volumes of data generated by various IoT devices; following this, you get real-time responses.
+            5. Salesforce App Cloud: You can use this service to develop custom apps that will run on the Salesforce platform. 
+            6. Salesforce Service Cloud: Salesforce also helps you serve your customers. This is a service platform for your organization’s support team. It provides features like case tracking and social networking plug-in.
+
+
+
+
+
+
+
+
+
+
+VR/Computer vision
+
+Virtual reality is a digital Technology that creates a simulated environment through sight and sound.Virtual reality is presented in a way that makes it real to the user. Created by gamers for gamers, is limited to gaming and entertainment. VR immerses a person into a virtual world stimulating their real presence through senses. This stimulation can be achieved through a source of content and hardware like headsets, treadmills, gloves and so on. Computer vision aids virtual reality with robust vision capabilities like SLAM (simultaneous localization and mapping), SfM (structure from motion), user body tracking and gaze tracking. Using cameras and sensors, these functions help VR systems analyze the user’s environment and detect the headset’s location. So, computer vision and virtual reality work together to make products more sophisticated and user-responsive.
+
+
+Computer vision is the branch of artificial intelligence which gives computers the capacity to draw meaningful information from digital images and videos, and in addition, act or make recommendations on that basis. Information from data sources is extracted automatically, analyzed, and understood. In recent years, it has been used for medical image analysis, facial recognition, surveillance, pollution monitoring, and other highly advanced systems.
+
+
+Computer Vision examples:
+
+
+            * Agriculture. Agriculture is not traditionally associated with cutting-edge technology. 
+            * Autonomous vehicles. 
+            * Facial recognition. 
+            * Human pose tracking. 
+            * Interactive entertainment. 
+            * Medical imaging. 
+            * Manufacturing. 
+            * Retail management.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+            * Use a moon split in two for techs that are both frontend and backend (nodejs, for example), so it can be in two solar systems
+
+
+Videos to check for designing
+IT taxonomy 
+Another IT taxonomy
+Misc
+  
+
+  
+
+  
+
+
+
+Claris Doc for interviews
+Tecnologias Big Data
+
+
+
+
+Quality Assurance (QA) SKILLS
+
+
+Automation testing:  
+In most medium and large web applications there are quite a few integration points with internal or external components such as:
+- Services
+- UI
+- Databases
+- Caches
+- Filesystems
+and so on, which may be distributed across network and infrastructure boundaries. In order to test that all these integration points work as expected, you need to write integration tests that run against the actual integrating systems.
+
+
+            * Exploratory Testing ***
+
+
+Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution. It focuses on discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. And it is suited for specific testing scenarios, such as when someone needs to learn about a product or application quickly and provide rapid feedback. It helps review the quality of a product from a user perspective.It can be done manually.
+
+
+
+
+            * UI Testing
+
+
+Visual testing requires an understanding of how the UI components interact with each other and with the browser, for web applications. It can be done manually and automated. The most popular tools for UI are:
+-Selenium
+-Cypress
+-Playwright
+-Ranorex
+-Test cafe
+
+
+            * Cross-functional requirements testing ***
+
+
+CFRs are features of the application that have to be built into every functional feature. For example, a couple of CFRs for the ride-hailing app could be that the app should respond to users within x seconds, users should be able to perform any action within n steps and so on. 
+
+
+            * Cross browser: is a type of non-functional testing that lets you check whether your website works as intended when accessed through: Different Browser-OS combination.
+
+
+            * Cross device testing: is a software testing technique that checks solutions in multiple formats and on various devices, to provide confidence in their quality and accessibility no matter how a user chooses to interact. 
+
+
+Cloud-Based testing is a very common approach:
+
+
+-LambdaTest
+-BrowserStack
+-Ghost Inspector
+-Sauce Labs
+-AWS device farm
+But you can also use any tool mentioned above for UI testing. It can be done manually and automated.
+
+
+            * Mobile Testing
+
+
+IOS/ANDROID testing
+Can be done in 2 ways, huge difference between them
+- Native
+            * Android native apps are typically written in Java or Kotlin; 
+            * iOS apps are developed with Objective C or Swift;
+- Non native
+            * Appium, (iOS/Android Testing Tool)
+            * Calabash, (iOS/Android Testing Tool)
+            * Selendroid, Android
+            * For other Most common tools you can check in this link
+
+
+
+
+            * Data Testing
+
+
+The skill of data testing requires knowledge about the different types of data storage and processing systems typically used in web and mobile applications (databases, caches, event streams, etc.) and the ability to derive appropriate test cases. It can be done manually and automated. Most popular tools are: 
+
+
+- Postman
+- SoapUI
+- Swagger
+- Karate
+            * Continuous Testing
+
+
+The skill of continuous testing involves determining which types of automated tests should be run at each stage of the delivery cycle, and integrating them effectively into the CI/CD pipelines. 
+It is not a must building deployment pipelines, however CI/CD knowledge is a bonus, working closely with Devops. It can be done automated.
+Tooling: Usual Devops tools
+
+
+
+
+
+
+
+
+
+
+            * Security Testing ***
+
+
+Security Testing is a form of software testing performed to evaluate the security of a system or application. Security testing ensures the system’s safety from hackers, viruses, or cyber threats. Such protection can only be achieved by analyzing the system against all security-related expectations. It can be done automated and manually but limited. 
+Types of security testing:
+            * Vulnerability Scanning Test;
+            * Security Scanning;
+            * Penetration Scanning or Pen Testing
+            * Risk Assessment;
+            * Security Audit;
+            * Ethical Hacking;
+            * Assessment of Posture;
+            * API Security Testing;
+            * Mobile application security;
+            * Network Security Testing;
+
+
+
+
+            * Performance Testing
+
+
+Performance, in simple terms, can be thought of as the ability of an application to serve large numbers of concurrent users without significant degradation in its behavior compared to when it is serving only a single user. That is, the performance must not degrade beyond a point that is acceptable to the end users. It can be done automated but not manually. The most popular tools are:
+ -LoadNinja.
+-HeadSpin.
+-ReadyAPI Performance.
+-LoadView.
+-Keysight's Eggplant.
+-Apache JMeter.
+-LoadRunner.
+
+
+
+
+
+
+            * Accessibility testing ***
+
+
+
+
+AT is the practice of making your web and mobile apps usable to as many people as possible. It makes apps accessible to those with disabilities, such as vision impairment, hearing disabilities, and other physical or cognitive conditions. It measures how fit the app is for people with permanent or temporary disabilities. It can be done manually and automated.
+
+
+You need to test: 
+
+
+            * Labels — Used by assistive technologies, like VoiceOver or TalkBack.
+            * Text contrast — Ratio between text or images and background color.
+            * Hit area size — Area designated for user interaction.
+            * View hierarchy of UI — Determines how easy the Android app is to navigate.
+            * Dynamic font size — Option for users to increase font size to fit their needs.
+
+
+
+
+            * Gaming Testing ***
+
+
+Game Testing is a software testing process for testing video games for quality control. The main goal of Game testing is to identify and discover defects and bugs in a video game and improve the stability and performance. Game testing is a component of game development that helps to ensure the video game to be deployed is bug-free.
+
+
+Game Tester jobs involves:
+            * Classify the requirements based on the intended purpose and target audience.
+            * Identify the user and system requirement and should be classified into functional, nonfunctional, domain requirements
+            * Identify Testable items, Non-testable items, targets and measures for functional and nonfunctional requirements
+            * Check if the functional requirements are complete, consistent & comprehensible
+            * Identify customizable requirements, conflicting requirements
+            * Identifying interdependent requirements is one of the game testing jobs.
+            * Prioritize the requirements based on the uniqueness, complexity, criticality
+            * Identify the theme of the game, Characters, Animation, AI, Cinematic, Camera view, gameplay
+
+
+Types of game testing includes:
+
+
+1) Functional Testing
+Functionality QA testers look for the generic problems within the game or its user interface & graphics, such as game mechanic issues, stability issues, and game asset integrity. User interface testing ensures user-friendliness of the game
+2) Compatibility Testing
+Checking if the game is compatible across different devices, and on different configurations of hardware and software.
+3) Performance Testing
+The overall performance of the Game is checked. Performance tuning is performed to optimize game speed.
+4) Conformance /Compliance Testing
+Marketplace guidelines compliance (e.g., Apple App Store policies), Enterprise policy compliance (e.g., prohibited content). Compliance may also refer to regulatory bodies such as PEGI and ESRB. The game targets a particular content rating. If there is an objectionable content that is inappropriate for the desired rating, then they are identified and reported. Even a single violation in submission for license approval may have the game rejected, incurring additional costs in further testing and resubmission.
+5) Localization testing
+Localization testing becomes essentially important when a game is targeted for the global markets. Game titles, content, and texts need to be translated and tested with devices in multiple languages.
+6) Soak testing
+This game automation testing involves leaving the game running for a prolonged period in various modes of operation. For example, idling paused, or at the title screen. Soaking can identify memory leaks or rounding errors.
+7) Recovery testing
+In software, recovery testing checks how well the application can be recovered from crashes, hardware failures, and other similar failures. The application is forced to fail, and later it will be observed how it recovers from the failure conditions and the environment.
+8) Security testing
+It is done to check how safe the software works from external threats.
+9) Other Games testing
+Testing of real or virtual characters. In multiplayer video games, connectivity to the server and synchronization of game status are two critical areas to be tested.
+
+
+
+
+            * Blockchain Testing
+
+
+Most applications use existing blockchain networks such as Ethereum to deploy their smart contracts, and hence you may not need to test the blockchain’s features in particular. It can be done manually and automated. Tools like Ethereum Tester and Populus are useful for testing Ethereum-based blockchain applications, and Bitcoin and Testnet help to test Bitcoin transactions. 
+
+
+            * User Acceptance Testing (UAT) Testing ***
+It is a type of testing performed by the end user or the client to verify/accept the software system before moving the software application to the production environment. UAT is done in the final phase of testing after functional, integration and system testing is done.
+The main Purpose of UAT is to validate end to end business flow. It does not focus on cosmetic errors, spelling mistakes or system testing. User Acceptance Testing is carried out in a separate testing environment with production-like data setup. It is a kind of black box testing where two or more end-users will be involved.
+UAT most used tools:
+            * Fitness Tool;
+            * Watir;
+
+
+[a]Could not find any info on this. No idea what it's useful for.
+[b]Me neither. Considering if it even exists. Will keep on looking, if not, removing it at a later time
